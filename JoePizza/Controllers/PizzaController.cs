@@ -10,7 +10,7 @@ namespace JoePizza.Controllers
             var pizzas = new List<Pizza>
     {
         new Pizza { Id = 1, Name = "Margarita", Price = 1000 },
-        new Pizza { Id = 2, Name = "Pepperoni", Price = 1000 }
+        new Pizza { Id = 2, Name = "Pepperoni", Price = 800 }
     };
             return View(pizzas);
         }
@@ -57,7 +57,7 @@ namespace JoePizza.Controllers
             var pizzas = new List<Pizza>
 {
     new Pizza { Id = 1, Name = "Margarita", Price = 1000 },
-    new Pizza { Id = 2, Name = "Pepperoni", Price = 900 }
+    new Pizza { Id = 2, Name = "Pepperoni", Price = 800 }
 };
             return pizzas.FirstOrDefault(p => p.Id == pizzaId);
         }

@@ -24,16 +24,6 @@
         "projectUniqueName": "D:\\Simplelearn_assignments\\JoePizzaFinal\\JoePizza\\NunitLib\\NunitLib.csproj",
         "projectName": "NunitLib",
         "projectPath": "D:\\Simplelearn_assignments\\JoePizzaFinal\\JoePizza\\NunitLib\\NunitLib.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "projectStyle": "PackagesConfig",
-        "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net472": {
             "projectReferences": {
@@ -42,8 +32,7 @@
               }
             }
           }
-        },
-        "packagesConfigPath": "D:\\Simplelearn_assignments\\JoePizzaFinal\\JoePizza\\NunitLib\\packages.config"
+        }
       },
       "frameworks": {
         "net472": {}

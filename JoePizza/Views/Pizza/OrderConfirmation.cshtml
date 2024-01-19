@@ -10,7 +10,7 @@
 <p>Selected Pizza: @Model.OrderView.SelectedPizza.Name</p>
 <p>Quantity: @Model.OrderView.Quantity</p>
 <p>Price per unit: @Model.OrderView.SelectedPizza.Price</p>
-<p>Calculated Total Price: @Model.OrderView.TotalPrice</p>
+<p>Total Price: @Model.OrderView.TotalPrice</p>
 
 <form method="post" asp-action="PizzaSelection">
     <input type="hidden" asp-for="OrderView.SelectedPizza.Id" />

@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Pizza>
+<h2> Pizza Selection</h2>
+
+<form method="post" asp-action="OrderCheckout">
+    @foreach (var pizza in Model)
+    {
+        <div>
+            <label>
+                <input type="radio" name="Pizzaid" value="@pizza.Id" required /> @pizza.Name - @pizza.Price
+            </label>
+        </div>
+
+    }
+    <label>
+        Quantity: <input type="number" name="quantity" value="1" min="1" required />
+
+    </label>
+    <button type="submit">Add to order</button>
+</form>

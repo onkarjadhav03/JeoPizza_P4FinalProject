@@ -1,0 +1,2 @@
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\Nunit\obj\Debug\Nunit.csproj.AssemblyReference.cache
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\Nunit\obj\Debug\Nunit.csproj.CoreCompileInputs.cache

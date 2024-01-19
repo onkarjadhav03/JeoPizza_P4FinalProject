@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model OrderConfirmationView
+<h2>Order Confirmation</h2>
+<p>Thank you for your order</p>
+<p>Order Id: @Model.OrderId</p>
+<p>Selected Pizza: @Model.OrderView.SelectedPizza.Name</p>
+<p>Quantity: @Model.OrderView.Quantity</p>
+<p>Price per unit: @Model.OrderView.SelectedPizza.Price</p>
+<p>Calculated Total Price: @Model.OrderView.TotalPrice</p>
+
+<form method="post" asp-action="PizzaSelection">
+    <input type="hidden" asp-for="OrderView.SelectedPizza.Id" />
+    <input type="hidden" asp-for="OrderView.Quantity" />
+    <button type="submit">Checkout</button>
+</form>

@@ -1,0 +1,6 @@
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.AssemblyReference.cache
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\obj\Debug\ClassLibrary3.csproj.CoreCompileInputs.cache
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+D:\Simplelearn_assignments\JoePizzaFinal\JoePizza\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
